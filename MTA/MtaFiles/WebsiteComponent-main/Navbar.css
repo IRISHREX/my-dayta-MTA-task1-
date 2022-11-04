@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    height: 100px;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 5px red;
+}
+#Logo{
+    width: 40%;
+    color: snow;
+    margin-left: 50px;
+}
+#Logo h1{
+    text-shadow: 2px 2px 2px rgb(231, 47, 65);
+}
+.Menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Menu a{
+    text-decoration: none;
+    color: snow;
+    font-weight: bold;
+    position: relative;
+}
+.Menu a:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 3px;
+    background-color: rgb(8, 156, 18);
+    transition: all 0.5s linear;
+}
+.Menu a:hover:before{
+    width: 100%;
+    background-color:  rgb(231, 47, 65);
+}

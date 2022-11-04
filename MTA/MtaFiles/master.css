@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.container{
+  position: fixed;
+    height: 5rem;
+    width: 99%;
+    line-height: 80px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    /* margin-bottom: 2rem; */
+  }
+  .container .menu{
+    display: flex;
+    position: relative;
+  }
+  .container .menu li{
+    list-style: none;
+    margin-left: 3.5em;
+    flex: 1;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  .container .menu li a{
+    color: #1d1f20;
+    transition: color 0.3s ease;
+  }
+  .container .menu li:hover a{
+    color: #f23b26;
+  }
+  .container .menu li:first-child a{
+    color: #f23b26;
+  }
+  .container .menu .line{
+    position: absolute;
+    height: 0.4rem;
+    width: 5%;
+    background: #f23b26;
+    left: 0;
+    bottom: 0.1rem;
+    margin-left: 6em;
+    transition: all 0.3s ease;
+  }
+  .container .menu li:nth-child(2):hover ~ .line{
+    left: 20%;
+  }
+  .container .menu li:nth-child(3):hover ~ .line{
+    left: 40%;
+  }
+  .container .menu li:nth-child(4):hover ~ .line{
+    left: 60%;
+  }
+  .container .menu li:nth-child(5):hover ~ .line{
+    left: 80%;
+  }
+
+.Content{
+    background-image: url(/MtaFiles/Images/pexels-pixabay-373543.jpg);
+    background-repeat: repeat-x;
+}
+
+/* slider */
+.slider-body{
+    margin:0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom:20rem ;
+}
+.slider-p{
+
+    display: block;
+    color: rgb(253, 247, 247 );
+    text-align: center;
+    text-shadow: #bbe71b;
+    font-weight: bold;
+    font-size: medium;
+}
+/* .slider-p p{
+    color: rgb(253, 247, 247 );
+    text-align: center;
+    text-shadow: #bbe71b;
+    font-weight: bold;
+    font-size: medium;
+} */
+
+.sh{
+    font-size: 2rem;
+    line-height: 1rem;
+    letter-spacing: 0.5rem;
+    color: rgba(236, 222, 222, 0.9);
+    text-align: center;
+    /* padding: 2rem; */
+    /* margin-bottom: 5rem; */
+}
+#Image-Slider{
+    margin-top: 4rem;
+    /* margin-bottom: 40rem; */
+    width: 90%;
+    height: 30rem;
+    position: absolute;
+  
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url("/MtaFiles/Images/FIFA\ 22\ -\ FREE\ Coins\ &\ Points\ Generator.jpg");
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px rgb(243, 119, 119);
+    animation: slider 12s infinite alternate linear;
+}
+@keyframes slider{
+    0%{background-image:url("/MtaFiles/Images/FIFA\ World\ Cup\ 2022\ _\ Qatar.jpg");}
+    35%{background-image:url("/MtaFiles/Images/FIFA\ Qatar\ 2022\ Poster.jpg");}
+    75%{background-image:url("/MtaFiles/Images/FIFA\ World\ Cup\ Qatar\ 2022\ Adrenalyn\ XL.jpg");}
+}
+
+/* cards */
+   .CardS{
+    margin-top: 28rem;
+    background-image: url(/MtaFiles/Images/pexels-pixabay-373543.jpg);
+   }
+   
+   #Card{
+        width: 20rem;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 2rem; 
+        margin: 2.2rem;
+        display: inline-block;
+        background-color:  rgba(26, 2, 7, 0.9);
+       }
+   
+   #Image img{
+     width: 100%;
+     height: 20rem;
+     border-top-right-radius: 0.5rem;
+     border-top-left-radius: 0.5rem;
+     
+    }
+    img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+   
+   #Title{
+    
+     text-align: center;
+     padding: 1rem;
+     
+    }
+   
+   #Title p{
+     font-size: 1rem;
+     font-weight: 500;
+     color: rgb(248, 242, 242);
+    }
+   
+   #Des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   #Des p{
+    font-weight: 100;
+    font-size: 0.8rem;
+    color: #bbbbbb;
+   }
+   button{
+     margin-top: 3.5rem;
+     margin-bottom: 0.5rem;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+.about-body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/MtaFiles/Images/pexels-pixabay-373543.jpg);  
+}
+
+.about {
+    
+    /* margin-top: 5rem; */
+    /* border: 1px solid box; */
+    /* width: 90px; */
+    /* height: 1000px; */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 5rem;
+    border-radius: 10rem;
+    /* margin: 2rem; */
+    background-color: lightpink;
+    /* background-image: url(/MtaFiles/Images/Qatar\ 2022\ \(1\).png); */
+}
+
+#AB img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 25%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    float: left;
+}
+.write {
+    text-align: left;
+    color: whitesmoke;
+    letter-spacing: 0.2rem;
+    line-height: 1.8rem;
+
+}
+
+.container1{  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmux(100px, 2fr));
+    grid-gap: 3px;
+}
+.container1 img{
+    width: 100%;
+    height: 20rem;
+}
+.horizontal{
+  grid-column: auto / span 2;
+  /* grid-row: auto / span 2; */
+    justify-items: auto;
+}
+.vertical{
+  /* grid-column: auto / span 2; */
+  grid-row: auto / span 2;
+    justify-items: auto;
+}
+.big {
+    /* grid-column: auto / span 2; */
+    grid-row: auto / span 2;
+    justify-items: auto;
+}
+
+/* grid */
+
+/* .container{
+	max-width: 1170px;
+	margin:auto;
+} */
+/* .content1{
+    position: relative;
+    margin:20%;
+    text-align: center;
+    padding: 0 20px;
+    } */
+    .content1 .text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #202020;
+    }
+    .content1 .p{
+    font-size: 2.1875rem;
+    font-weight: 600;
+    color: #202020;
+    }
+    footer{
+    /* position: fixed; */
+    bottom: 0px;
+    width: 100%;
+    background: rgb(240, 228, 228);
+    }
+    .main-content{
+    display: flex;
+    }
+    .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+    }
+    .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+    .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+    }
+    .box .content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+    }
+    .box .content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #e66565;
+    top: -10px;
+    }
+    .left .content p{
+    text-align: justify;
+    }
+    .left .content .social{
+    margin: 20px 0 0 0;
+    }
+    .left .content .social a{
+    padding: 0 2px;
+    }
+    .left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    }
+    .left .content .social a span:hover{
+    background: orange;
+    }
+    .center .content .fas{
+    font-size: 1.4375rem;
+    background: #0f0f0f;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+    }
+    .center .content .fas:hover{
+    background: orange;
+    }
+    .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+    }
+    .center .content .phone{
+    margin: 15px 0;
+    }
+    .right form .text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #656565;
+    }
+    .right form .msg{
+    margin-top: 10px;
+    }
+    .right form input, .right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+    }
+    .right form input:focus,
+    .right form textarea:focus{
+    outline-color: #3498db;
+    }
+    .right form input{
+    height: 35px;
+    }
+    .right form .btn{
+    margin-top: 10px;
+    }
+    .right form .btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: orange;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    }
+    .right form .btn button:hover{
+    background: rgb(226, 32, 32);
+    }
+    .bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #d41010;
+    }
+    .bottom center span{
+    color: #ee1616;
+    }
+    .bottom center a{
+    color: #f12020;
+    text-decoration: none;
+    }
+    .bottom center a:hover{
+    text-decoration: underline;
+    }
+    @media screen and (max-width: 900px) {
+    footer{
+    position: relative;
+    bottom: 0px;
+    }
+    .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+    .main-content .box{
+    margin: 5px 0;
+    }
+    }
+    
+
+/*responsive*/
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+@media(max-width: 574px){
+    .slider-p{
+        margin-top: 23rem;
+        padding: 1rem;
+        display: block;
+    }
+    .slider-p p{
+        color: rgb(253, 247, 247 );
+        text-align: center;
+        text-shadow: #bbe71b;
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    #Image-Slider{
+        /* margin-top:0.5rem; */
+        width: 20rem;
+        height: 20rem;
+        position: absolute;
+        margin:5px;
+        left:50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background-image: url(/Images/Nh4.jpeg);
+        background-size: 100% 100%;
+        box-shadow: 1px 2px 10px 5px rgb(243, 119, 119);
+        animation: slider 9s infinite linear;
+    }
+    .sh{
+        font-size: 1.5rem;
+        line-height: 1rem;
+        letter-spacing: 0.1rem;
+        color: rgba(236, 222, 222, 0.9);
+        text-align: center;
+        padding: 0.5rem;
+    }
+  
+  }
+  @media(max-width: 574px){
+    .CardS{
+        margin-top: 5rem;
+       }
+       #Image-Slider{
+        margin-top: 3.8rem;
+        /* margin-bottom: 40rem; */
+        width: 90%;
+        height: 40rem;
+        position: absolute;
+        bottom: 20%;
+       }
+       .write {
+        text-align: center;
+        font-family: sans-serif;
+        color: whitesmoke;
+        letter-spacing: 0;
+    
+    }
+
+    .container{
+      display: none;
+    }
+ 
+
+
+}
+
+
+
+

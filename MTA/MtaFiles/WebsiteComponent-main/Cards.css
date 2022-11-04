@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   body{
+    font-family: arial;
+   }
+   #main{
+   
+    margin: 2%;
+   }
+   
+   #Card{
+        width: 20%;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 2%;
+        display: inline-block;
+       }
+   
+   #Image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+    }
+
+   
+   #Title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+   
+   #Title p{
+     font-size: 20px;
+     font-weight: 500;
+    }
+   
+   #Des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   #Des p{
+    font-weight: 100;
+   }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }

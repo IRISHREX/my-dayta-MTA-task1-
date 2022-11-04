@@ -1,0 +1,46 @@
+#Header{
+   border: 1px solid black;
+   width: 99%;
+   height: 80px; 
+}
+#Sidebar{
+    border: 1px solid black;
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+#container{
+    border: 1px solid black;
+    width: 79%;
+    height: 500px;
+    float: left; 
+}
+#content1{
+    border: 1px solid black;
+    width: 90%;
+    height: 80px; 
+    margin-top: 20px;
+    margin-left: 5%;
+
+}
+#content2{
+    border: 1px solid black;
+    width: 40%;
+    height: 350px; 
+    margin-left: 5%;
+    margin-top: 10px;
+    float: left;
+}
+#content3{
+    border: 1px solid black;
+    width: 40%;
+    height: 350px;
+    margin-left: 55%;
+    margin-top: 10px;
+}
+#Footer{
+    border: 1px solid black;
+    width: 99%;
+    height: 80px; 
+    margin-top: 500px;
+}
